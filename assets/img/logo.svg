@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <polygon strokeWidth="5" strokecolor="#000000" fill="#FF0000" edge="0" orient="x" sides="5" shape="regularPoly" id="svg_3" cy="151" cx="184"/>
+  <polygon transform="rotate(-90 313,245.78289794921872) " stroke-width="7" points="465.2994079589844,245.78289794921875 389.14971923828125,377.67803955078125 236.8502960205078,377.67803955078125 160.70059204101562,245.78289794921875 236.8502960205078,113.88774871826172 389.14971923828125,113.88774871826172 465.2994079589844,245.78289794921875 " strokeWidth="7" strokecolor="none" fill="#0e83cd" edge="152.299413" orient="x" sides="6" shape="regularPoly" id="svg_14" cy="111" cx="209"/>
+  <polygon stroke-width="5" points="313.512939453125,377.138671875 313.12109375,377.67801666259766 312.487060546875,377.47200775146484 312.487060546875,376.80533599853516 313.12109375,376.59932708740234 313.512939453125,377.138671875 " strokeWidth="5" strokecolor="none" fill="#FF0000" edge="0.666667" orient="x" sides="5" shape="regularPoly" id="svg_4" cy="125" cx="183"/>
+  <polygon strokeWidth="5" strokecolor="none" fill="#FF0000" edge="0" orient="x" sides="5" shape="regularPoly" id="svg_5" cy="77" cx="203"/>
+  <polygon strokeWidth="6" strokecolor="none" fill="#0e83cd" edge="0" orient="x" sides="5" shape="regularPoly" id="svg_7" cy="333" cx="-286"/>
+  <polygon strokeWidth="7" strokecolor="none" fill="#0e83cd" edge="0" orient="x" sides="6" shape="regularPoly" id="svg_12" cy="-90" cx="-192"/>
+  <polygon strokeWidth="7" strokecolor="none" fill="#0e83cd" edge="0" orient="x" shape="regularPoly" id="svg_13" cy="-76" cx="-110"/>
+  <text transform="matrix(11.878817417436506,0,0,11.878817417436506,-3229.578932569341,-2121.885056014872) " font-weight="normal" xml:space="preserve" text-anchor="middle" font-family="Monospace" font-size="24" id="svg_15" y="206.306113" x="298.243659" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ffffff">R</text>
+ </g>
+</svg>
