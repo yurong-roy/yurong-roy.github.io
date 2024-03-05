@@ -607,6 +607,7 @@ footer.sticky-bottom {
     margin-top: 2rem;
     margin-bottom: -2rem;
     text-align: right;
+    font-weight: bold; /* 添加此行以设置字体加粗 */
   }
 
   ol.bibliography {
@@ -615,17 +616,18 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: -0.5rem;
 
       .preview {
+        margin-top: 0.5rem;
         width: 100%;
         min-width: 80px;
-        max-width: 200px;
+        max-width: 180px;
       }
 
       .abbr {
-        height: 2rem;
-        margin-bottom: 0.5rem;
+        height: 0rem;
+        margin-bottom: 0rem;
 
         abbr {
           display: inline-block;
