@@ -18,7 +18,7 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi! I am currently a Senior Staff Algorithm Engineer at DAMO Academy of Alibaba Group. I am generally interested in developing the novel and efficient graph learning algorithms to tackle real-world challenges, particularly in the realm of social networks and AI for Science.
+Hi! I am currently a Senior Staff Algorithm Engineer at [DAMO Academy of Alibaba Group](https://damo.alibaba.com/). I am generally interested in developing the novel and efficient graph learning algorithms to tackle real-world challenges, particularly in the realm of social networks and AI for Science.
 
 Prior joining DAMO Academy, I served as a principal researcher at [Tencent AI Lab](https://ai.tencent.com/) for seven years. I briefly served as a Postdoctoral Research Fellow at The Chinese University of Hong Kong. I received Ph.D degree at [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/) in 2016, under the supervision of Professor [Hong CHENG](https://www1.se.cuhk.edu.hk/~hcheng/). Before that I obtained my B.S. degree with honors from [Sun Yat-sen University](https://www.sysu.edu.cn/).
 
