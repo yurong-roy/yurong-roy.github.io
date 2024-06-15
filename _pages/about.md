@@ -18,12 +18,12 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi! I am currently a principal researcher at Tencent AI Lab. I am generally interested in developing the novel and efficient graph learning algorithms to tackle real-world challenges, particularly in the realm of social networks and AI for Science.
+Hi! I am currently a Senior Staff Algorithm Engineer at DAMO Academy of Alibaba Group. I am generally interested in developing the novel and efficient graph learning algorithms to tackle real-world challenges, particularly in the realm of social networks and AI for Science.
 
-Prior joining Tencent, I briefly served as a Postdoctoral Research Fellow at The Chinese University of Hong Kong. I received Ph.D degree at [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/) in 2016, under the supervision of Professor [Hong CHENG](https://www1.se.cuhk.edu.hk/~hcheng/). Before that I obtained my B.S. degree with honors from [Sun Yat-sen University](https://www.sysu.edu.cn/).
+Prior joining DAMO Academy, I served as a principal researcher at [Tencent AI Lab](https://ai.tencent.com/) for seven years. I briefly served as a Postdoctoral Research Fellow at The Chinese University of Hong Kong. I received Ph.D degree at [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/) in 2016, under the supervision of Professor [Hong CHENG](https://www1.se.cuhk.edu.hk/~hcheng/). Before that I obtained my B.S. degree with honors from [Sun Yat-sen University](https://www.sysu.edu.cn/).
 
 
-<font color='red'>  <strong>Job Openings</strong>: <del>I am looking for highly motivated research interns on graph representation learning and AI for Science. The position will be Shenzhen based. Feel free to send your C.V. to me.</del> No head count right now. Sad. Still welcome remote undergraduate/graduate visitors. If you have an interesting topic that I can help with, feel free to contact me.   </font>
+<font color='red'>  <strong>JOB OPENINGS NOW!!</strong>: I am looking for highly motivated full-time positions / research interns on graph representation learning and AI for Science. Feel free to send your C.V. to me. </font>
 
 
 <h2 class="publications"><a href="{{ '/news/' | relative_url }}" style="color: inherit;">🔥 What's New </a></h2>
