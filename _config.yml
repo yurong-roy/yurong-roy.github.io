@@ -404,7 +404,12 @@ mdb:
 medium_zoom:
   version: "1.0.8"
   integrity: "sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8="
-
+imagesloaded:
+  integrity:
+    js: "sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc="
+  url:
+    js: https://cdn.jsdelivr.net/npm/imagesloaded@{{version}}/imagesloaded.pkgd.min.js
+  version: "5.0.0"
 # -----------------------------------------------------------------------------
 # Get external JSON data
 # -----------------------------------------------------------------------------
