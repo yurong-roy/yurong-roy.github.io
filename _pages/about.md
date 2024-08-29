@@ -15,7 +15,7 @@ profile:
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
-selected_papers: false # includes a list of papers marked as "selected={true}"
+# selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 Hi! I am currently a Senior Staff Algorithm Engineer at [DAMO Academy of Alibaba Group](https://damo.alibaba.com/). I am generally interested in developing the novel and efficient graph learning algorithms to tackle real-world challenges, particularly in the realm of social networks and AI for Science.
@@ -40,11 +40,10 @@ Prior joining DAMO Academy, I served as a principal researcher at [Tencent AI La
 
 
 
-## 📝 Publications
+## 📝 Recent Publications
 <div class="publications">
-{% bibliography -f {{ site.scholar.bibliography }} %}
+{% bibliography -f {{ site.scholar.bibliography }} -q @*[selected=true]* %}
 </div>
-
 
 <!-- ## 💬 Talks -->
 <h2 id="talks" class="publications">💬 Talks</h2>
