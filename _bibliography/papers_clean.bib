@@ -956,3 +956,25 @@
     numpages     = 10,
     keywords     = {graph dependence minimization, graph analytics, submodular minimization}
 }
+
+
+// 2024
+
+@inproceedings{10.1145/3637528.3671957,
+author = {Zheng, Zinan and Liu, Yang and Li, Jia and Yao, Jianhua and Rong, Yu},
+title = {Relaxing Continuous Constraints of Equivariant Graph Neural Networks for Broad Physical Dynamics Learning},
+year = {2024},
+isbn = {9798400704901},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3637528.3671957},
+doi = {10.1145/3637528.3671957},
+abstract = {Incorporating Euclidean symmetries (e.g. rotation equivariance) as inductive biases into graph neural networks has improved their generalization ability and data efficiency in unbounded physical dynamics modeling. However, in various scientific and engineering applications, the symmetries of dynamics are frequently discrete due to the boundary conditions. Thus, existing GNNs either over-look necessary symmetry, resulting in suboptimal representation ability, or impose excessive equivariance, which fails to generalize to unobserved symmetric dynamics. In this work, we propose a general Discrete Equivariant Graph Neural Network (DEGNN) that guarantees equivariance to a given discrete point group. Specifically, we show that such discrete equivariant message passing could be constructed by transforming geometric features into permutation-invariant embeddings. Through relaxing continuous equivariant constraints, DEGNN can employ more geometric feature combinations to approximate unobserved physical object interaction functions. Two implementation approaches of DEGNN are proposed based on ranking or pooling permutation-invariant functions. We apply DEGNN to various physical dynamics, ranging from particle, molecular, crowd to vehicle dynamics. In twenty scenarios, DEGNN significantly outperforms existing state-of-the-art approaches. Moreover, we show that DEGNN is data efficient, learning with less data, and can generalize across scenarios such as unobserved orientation.},
+booktitle = {Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+pages = {4548–4558},
+numpages = {11},
+keywords = {equivariant graph neural network, physical dynamics},
+location = {Barcelona, Spain},
+series = {KDD '24},
+pdf    = {https://dl.acm.org/doi/pdf/10.1145/3637528.3671957}
+}
