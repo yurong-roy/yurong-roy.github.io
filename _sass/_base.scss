@@ -605,7 +605,7 @@ footer.sticky-bottom {
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
-    margin-bottom: -2rem;
+    margin-bottom: 0rem; /* too narraw */
     text-align: right;
     font-weight: bold; /* 添加此行以设置字体加粗 */
   }
@@ -616,7 +616,7 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: -0.5rem;
+      margin-bottom: 0.5rem;
 
       .preview {
         margin-top: 0.5rem;
