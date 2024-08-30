@@ -970,7 +970,6 @@
 	bibtex_show  = {true},
 	abbr         = {DASFAA}
 }
-
 @inproceedings{9995287,
 	title        = {Integrating Prior Knowledge with Graph Encoder for Gene Regulatory Inference from Single-cell RNA-Seq Data},
 	author       = {Li, Jiawei and Yang, Fan and Wang, Fang and Rong, Yu and Zhao, Peilin and Chen, Shizhan and Yao, Jianhua and Tang, Jijun and Guo, Fei},
@@ -1017,7 +1016,6 @@
 	bibtex_show  = {true},
 	abbr         = {CIKM}
 }
-
 // 2023
 @article{10195874,
 	title        = {Structure-Aware DropEdge Toward Deep Graph Convolutional Networks},
@@ -1069,7 +1067,85 @@
 	bibtex_show  = {true},
 	abbr         = {ICDE}
 }
-
+@article{Tao2023,
+	title        = {Collaborative and privacy-preserving retired battery sorting for profitable direct recycling via federated machine learning},
+	author       = {Tao, Shengyu and Liu, Haizhou and Sun, Chongbo and Ji, Haocheng and Ji, Guanjun and Han, Zhiyuan and Gao, Runhua and Ma, Jun and Ma, Ruifei and Chen, Yuou and Fu, Shiyi and Wang, Yu and Sun, Yaojie and Rong, Yu and Zhang, Xuan and Zhou, Guangmin and Sun, Hongbin},
+	year         = 2023,
+	month        = {Dec},
+	day          = {05},
+	journal      = {Nature Communications},
+	volume       = 14,
+	number       = 1,
+	pages        = 8032,
+	doi          = {10.1038/s41467-023-43883-y},
+	issn         = {2041-1723},
+	url          = {https://doi.org/10.1038/s41467-023-43883-y},
+	abstract     = {Unsorted retired batteries with varied cathode materials hinder the adoption of direct recycling due to their cathode-specific nature. The surge in retired batteries necessitates precise sorting for effective direct recycling, but challenges arise from varying operational histories, diverse manufacturers, and data privacy concerns of recycling collaborators (data owners). Here we show, from a unique dataset of 130 lithium-ion batteries spanning 5 cathode materials and 7 manufacturers, a federated machine learning approach can classify these retired batteries without relying on past operational data, safeguarding the data privacy of recycling collaborators. By utilizing the features extracted from the end-of-life charge-discharge cycle, our model exhibits 1{\%} and 3{\%} cathode sorting errors under homogeneous and heterogeneous battery recycling settings respectively, attributed to our innovative Wasserstein-distance voting strategy. Economically, the proposed method underscores the value of precise battery sorting for a prosperous and sustainable recycling industry. This study heralds a new paradigm of using privacy-sensitive data from diverse sources, facilitating collaborative and privacy-respecting decision-making for distributed systems.},
+	pdf          = {https://www.nature.com/articles/s41467-023-43883-y.pdf},
+	bibtex_show  = {true},
+	abbr         = {Nature Comm.},
+	selected     = {true}
+}
+@article{10.1093/bib/bbad391,
+	title        = {{scMHNN: a novel hypergraph neural network for integrative analysis of single-cell epigenomic, transcriptomic and proteomic data}},
+	author       = {Li, Wei and Xiang, Bin and Yang, Fan and Rong, Yu and Yin, Yanbin and Yao, Jianhua and Zhang, Han},
+	year         = 2023,
+	month        = 11,
+	journal      = {Briefings in Bioinformatics},
+	volume       = 24,
+	number       = 6,
+	pages        = {bbad391},
+	doi          = {10.1093/bib/bbad391},
+	issn         = {1477-4054},
+	url          = {https://doi.org/10.1093/bib/bbad391},
+	abstract     = {{Technological advances have now made it possible to simultaneously profile the changes of epigenomic, transcriptomic and proteomic at the single cell level, allowing a more unified view of cellular phenotypes and heterogeneities. However, current computational tools for single-cell multi-omics data integration are mainly tailored for bi-modality data, so new tools are urgently needed to integrate tri-modality data with complex associations. To this end, we develop scMHNN to integrate single-cell multi-omics data based on hypergraph neural network. After modeling the complex data associations among various modalities, scMHNN performs message passing process on the multi-omics hypergraph, which can capture the high-order data relationships and integrate the multiple heterogeneous features. Followingly, scMHNN learns discriminative cell representation via a dual-contrastive loss in self-supervised manner. Based on the pretrained hypergraph encoder, we further introduce the pre-training and fine-tuning paradigm, which allows more accurate cell-type annotation with only a small number of labeled cells as reference. Benchmarking results on real and simulated single-cell tri-modality datasets indicate that scMHNN outperforms other competing methods on both cell clustering and cell-type annotation tasks. In addition, we also demonstrate scMHNN facilitates various downstream tasks, such as cell marker detection and enrichment analysis.}},
+	eprint       = {https://academic.oup.com/bib/article-pdf/24/6/bbad391/52778081/bbad391.pdf},
+	pdf          = {https://academic.oup.com/bib/article-pdf/24/6/bbad391/52778081/bbad391.pdf},
+	bibtex_show  = {true},
+	abbr         = {BRIEF BIOINFORM},
+	selected     = {false}
+}
+@inproceedings{10.1145/3583780.3614893,
+	title        = {Geometric Graph Learning for Protein Mutation Effect Prediction},
+	author       = {Zhao, Kangfei and Rong, Yu and Jiang, Biaobin and Tang, Jianheng and Zhang, Hengtong and Yu, Jeffrey Xu and Zhao, Peilin},
+	year         = 2023,
+	booktitle    = {Proceedings of the 32nd ACM International Conference on Information and Knowledge Management},
+	location     = {Birmingham, United Kingdom},
+	publisher    = {Association for Computing Machinery},
+	address      = {New York, NY, USA},
+	series       = {CIKM '23},
+	pages        = {3412–3422},
+	doi          = {10.1145/3583780.3614893},
+	isbn         = 9798400701245,
+	url          = {https://doi.org/10.1145/3583780.3614893},
+	abstract     = {Proteins govern a wide range of biological systems. Evaluating the changes in protein properties upon protein mutation is a fundamental application of protein design, where modeling the 3D protein structure is a principal task for AI-driven computational approaches. Existing deep learning (DL) approaches represent the protein structure as a 3D geometric graph and simplify the graph modeling to different degrees, thereby failing to capture the low-level atom patterns and high-level amino acid patterns simultaneously. In addition, limited training samples with ground truth labels and protein structures further restrict the effectiveness of DL approaches. In this paper, we propose a new graph learning framework, Hierarchical Graph Invariant Network (HGIN), a fine-grained and data-efficient graph neural encoder for encoding protein structures and predicting the mutation effect on protein properties. For fine-grained modeling, HGIN hierarchically models the low-level interactions of atoms and the high-level interactions of amino acid residues by Graph Neural Networks. For data efficiency, HGIN preserves the invariant encoding for atom permutation and coordinate transformation, which is an intrinsic inductive bias of property prediction that bypasses data augmentations. We integrate HGIN into a Siamese network to predict the quantitative effect on protein properties upon mutations. Our approach outperforms 9 state-of-the-art approaches on 3 protein datasets. More inspiringly, when predicting the neutralizing ability of human antibodies against COVID-19 mutant viruses, HGIN achieves an absolute improvement of 0.23 regarding the Spearman coefficient.},
+	numpages     = 11,
+	keywords     = {graph neural network, geometric graph learning},
+	pdf          = {https://drive.google.com/file/u/1/d/1iHYjXvsHp_Qgvie9KZ7qx7UHxlvJWFqP/view},
+	bibtex_show  = {true},
+	abbr         = {CIKM},
+	selected     = {true}
+}
+@inproceedings{10.1145/3580305.3599475,
+	title        = {Privacy Matters: Vertical Federated Linear Contextual Bandits for Privacy Protected Recommendation},
+	author       = {Cao, Zeyu and Liang, Zhipeng and Wu, Bingzhe and Zhang, Shu and Li, Hangyu and Wen, Ouyang and Rong, Yu and Zhao, Peilin},
+	year         = 2023,
+	booktitle    = {Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+	location     = {Long Beach, CA, USA},
+	publisher    = {Association for Computing Machinery},
+	address      = {New York, NY, USA},
+	series       = {KDD '23},
+	pages        = {154–166},
+	doi          = {10.1145/3580305.3599475},
+	isbn         = 9798400701030,
+	url          = {https://doi.org/10.1145/3580305.3599475},
+	abstract     = {Recent awareness of privacy protection and compliance requirement resulted in a controversial view of recommendation system due to personal data usage. Therefore, privacy-protected recommendation emerges as a novel research direction. In this paper, we first formulate this problem as a vertical federated learning problem, i.e., features are vertically distributed over different departments. We study a contextual bandit learning problem for recommendation in the vertical federated setting. To this end, we carefully design a customized encryption scheme named orthogonal matrix-based mask mechanism (O3M). O3M mechanism, a tailored component for contextual bandits by carefully exploiting their shared structure, can ensure privacy protection while avoiding expensive conventional cryptographic techniques. We further apply the mechanism to two commonly-used bandit algorithms, LinUCB and LinTS, and instantiate two practical protocols for online recommendation. The proposed protocols can perfectly recover the service quality of centralized bandit algorithms while achieving a satisfactory runtime efficiency, which is theoretically proved and analysed in this paper. By conducting extensive experiments on both synthetic and real-world datasets, we show the superiority of the proposed method in terms of privacy protection and recommendation performance.},
+	numpages     = 13,
+	keywords     = {vertical federated learning, privacy- preserving protocols, linear contextual bandits},
+	bibtex_show  = {true},
+	abbr         = {KDD},
+	selected     = {true}
+}
 // 2024
 @inproceedings{10.1145/3637528.3671957,
 	title        = {Relaxing Continuous Constraints of Equivariant Graph Neural Networks for Broad Physical Dynamics Learning},
@@ -1186,5 +1262,24 @@
 	abbr         = {ICLR},
 	code         = {https://github.com/tmlr-group/NeuralAtom},
 	pdf          = {https://openreview.net/pdf?id=CUfSCwcgqm},
+	selected     = {true}
+}
+@article{Li2024,
+	title        = {scPROTEIN: a versatile deep graph contrastive learning framework for single-cell proteomics embedding},
+	author       = {Li, Wei and Yang, Fan and Wang, Fang and Rong, Yu and Liu, Linjing and Wu, Bingzhe and Zhang, Han and Yao, Jianhua},
+	year         = 2024,
+	month        = {Apr},
+	day          = {01},
+	journal      = {Nature Methods},
+	volume       = 21,
+	number       = 4,
+	pages        = {623--634},
+	doi          = {10.1038/s41592-024-02214-9},
+	issn         = {1548-7105},
+	url          = {https://doi.org/10.1038/s41592-024-02214-9},
+	abstract     = {Single-cell proteomics sequencing technology sheds light on protein--protein interactions, posttranslational modifications and proteoform dynamics in the cell. However, the uncertainty estimation for peptide quantification, data missingness, batch effects and high noise hinder the analysis of single-cell proteomic data. It is important to solve this set of tangled problems together, but the existing methods tailored for single-cell transcriptomes cannot fully address this task. Here we propose a versatile framework designed for single-cell proteomics data analysis called scPROTEIN, which consists of peptide uncertainty estimation based on a multitask heteroscedastic regression model and cell embedding generation based on graph contrastive learning. scPROTEIN can estimate the uncertainty of peptide quantification, denoise protein data, remove batch effects and encode single-cell proteomic-specific embeddings in a unified framework. We demonstrate that scPROTEIN is efficient for cell clustering, batch correction, cell type annotation, clinical analysis and spatially resolved proteomic data exploration.},
+	bibtex_show  = {true},
+	abbr         = {Nature Methods},
+	code         = {https://github.com/TencentAILabHealthcare/scPROTEIN},
 	selected     = {true}
 }
