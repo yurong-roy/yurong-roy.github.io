@@ -1031,3 +1031,59 @@ bibtex_show = {true},
 abbr        = {Neural Networks},
 selected={false}
 }
+
+@article{10.14778/3675034.3675048,
+author = {Fang, Shuheng and Zhao, Kangfei and Rong, Yu and Li, Zhixun and Yu, Jeffrey Xu},
+title = {Inductive Attributed Community Search: To Learn Communities Across Graphs},
+year = {2024},
+issue_date = {June 2024},
+publisher = {VLDB Endowment},
+volume = {17},
+number = {10},
+issn = {2150-8097},
+url = {https://doi.org/10.14778/3675034.3675048},
+doi = {10.14778/3675034.3675048},
+abstract = {Attributed community search (ACS) aims to identify subgraphs satisfying both structure cohesiveness and attribute homogeneity in attributed graphs, for a given query that contains query nodes and query attributes. Previously, algorithmic approaches deal with ACS in a two-stage paradigm, which suffer from structural inflexibility and attribute irrelevance. To overcome this problem, recently, learning-based approaches have been proposed to learn both structures and attributes simultaneously as a one-stage paradigm. However, these approaches train a transductive model which assumes the graph to infer unseen queries is as same as the graph used for training. That limits the generalization and adaptation of these approaches to different heterogeneous graphs.In this paper, we propose a new framework, Inductive Attributed Community Search, IACS, by inductive learning, which can be used to infer new queries for different communities/graphs. Specifically, IACS employs an encoder-decoder neural architecture to handle an ACS task at a time, where a task consists of a graph with only a few queries and corresponding ground-truth. We design a three-phase workflow, "training-adaptation-inference", which learns a shared model to absorb and induce prior effective common knowledge about ACS across different tasks. And the shared model can swiftly adapt to a new task with small number of ground-truth. We conduct substantial experiments in 7 real-world datasets to verify the effectiveness of IACS for CS/ACS. Our approach IACS achieves 28.97\% and 25.60\% improvements in F1-score on average in CS and ACS, respectively.},
+journal = {Proc. VLDB Endow.},
+month = {aug},
+pages = {2576–2589},
+numpages = {14},
+bibtex_show = {true},
+abbr        = {VLDB},
+code = {https://github.com/FangShuheng/IACS},
+selected={true}
+}
+
+
+@article{doi:10.1089/cmb.2023.0187,
+author = {Ma, Hehuan and Jiang, Feng and Rong, Yu and Guo, Yuzhi and Huang, Junzhou},
+title = {Toward Robust Self-Training Paradigm for Molecular Prediction Tasks},
+journal = {Journal of Computational Biology},
+volume = {31},
+number = {3},
+pages = {213-228},
+year = {2024},
+doi = {10.1089/cmb.2023.0187},
+note ={PMID: 38531049},
+URL = {https://doi.org/10.1089/cmb.2023.0187},
+eprint = {https://doi.org/10.1089/cmb.2023.0187},
+abstract = { Molecular prediction tasks normally demand a series of professional experiments to label the target molecule, which suffers from the limited labeled data problem. One of the semisupervised learning paradigms, known as self-training, utilizes both labeled and unlabeled data. Specifically, a teacher model is trained using labeled data and produces pseudo labels for unlabeled data. These labeled and pseudo-labeled data are then jointly used to train a student model. However, the pseudo labels generated from the teacher model are generally not sufficiently accurate. Thus, we propose a robust self-training strategy by exploring robust loss function to handle such noisy labels in two paradigms, that is, generic and adaptive. We have conducted experiments on three molecular biology prediction tasks with four backbone models to gradually evaluate the performance of the proposed robust self-training strategy. The results demonstrate that the proposed method enhances prediction performance across all tasks, notably within molecular regression tasks, where there has been an average enhancement of 41.5\%. Furthermore, the visualization analysis confirms the superiority of our method. Our proposed robust self-training is a simple yet effective strategy that efficiently improves molecular biology prediction performance. It tackles the labeled data insufficient issue in molecular biology by taking advantage of both labeled and unlabeled data. Moreover, it can be easily embedded with any prediction task, which serves as a universal approach for the bioinformatics community. },
+bibtex_show = {true},
+abbr        = {J COMPUT BIOL},
+code = {https://github.com/uta-smile/robust_self_training},
+selected={false}
+}
+
+@inproceedings{
+li2024neural,
+title={Neural Atoms: Propagating Long-range Interaction in Molecular Graphs through Efficient Communication Channel},
+author={Xuan Li and Zhanke Zhou and Jiangchao Yao and Yu Rong and Lu Zhang and Bo Han},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+url={https://openreview.net/forum?id=CUfSCwcgqm}
+bibtex_show = {true},
+abbr        = {ICLR},
+code = {https://github.com/tmlr-group/NeuralAtom},
+pdf = {https://openreview.net/pdf?id=CUfSCwcgqm},
+selected={true}
+}
