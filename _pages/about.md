@@ -31,7 +31,7 @@ Prior joining DAMO Academy, I served as a principal researcher at [Tencent AI La
 {%- include news.html limit=true %}
 </div>
 
-<h2 class="publications">Current Research Topics</h2>
+<h2 class="publications">🔍 Current Research Topics</h2>
 - Deep Graph Learning
    - Foundations of Graph Neural Network
 - AI for Science
