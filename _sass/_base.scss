@@ -589,7 +589,7 @@ footer.sticky-bottom {
     font-size: 2rem;
     text-align: center;
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
   }
 
   h2 {
@@ -614,7 +614,7 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: -0.5rem;
 
       .preview {
       }
