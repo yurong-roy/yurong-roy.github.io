@@ -1,20 +1,7 @@
 ---
 ---
 @string{aps = {American Physical Society,}}
-@inproceedings{DBLP:conf/iclr/RongHXH20,
-	title        = {DropEdge: Towards Deep Graph Convolutional Networks on Node Classification},
-	author       = {Yu Rong and Wenbing Huang and Tingyang Xu and Junzhou Huang},
-	year         = 2020,
-	booktitle    = {8th International Conference on Learning Representations, {ICLR} 2020},
-	publisher    = {OpenReview.net},
-	url          = {https://openreview.net/forum?id=Hkx1qkrKPr},
-	timestamp    = {Thu, 29 Jul 2021 17:20:43 +0200},
-	biburl       = {https://dblp.org/rec/conf/iclr/RongHXH20.bib},
-	bibsource    = {dblp computer science bibliography, https://dblp.org},
-	bibtex_show  = {true},
-	abbr         = {ICLR},
-	abstract     = {Over-fitting and over-smoothing are two main obstacles of developing deep Graph Convolutional Networks (GCNs) for node classification. In particular, over-fitting weakens the generalization ability on small dataset, while over-smoothing impedes model training by isolating output representations from the input features with the increase in network depth. This paper proposes DropEdge, a novel and flexible technique to alleviate both issues. At its core, DropEdge randomly removes a certain number of edges from the input graph at each training epoch, acting like a data augmenter and also a message passing reducer. Furthermore, we theoretically demonstrate that DropEdge either reduces the convergence speed of over-smoothing or relieves the information loss caused by it. More importantly, our DropEdge is a general skill that can be equipped with many other backbone models (e.g. GCN, ResGCN, GraphSAGE, and JKNet) for enhanced performance. Extensive experiments on several benchmarks verify that DropEdge consistently improves the performance on a variety of both shallow and deep GCNs. The effect of DropEdge on preventing over-smoothing is empirically visualized and validated as well. Codes are released on~https://github.com/DropEdge/DropEdge.}
-}
+
 @inproceedings{NEURIPS2018_01eee509,
 	title        = {Adaptive Sampling Towards Fast Graph Representation Learning},
 	author       = {Huang, Wenbing and Zhang, Tong and Rong, Yu and Huang, Junzhou},
@@ -39,20 +26,7 @@
 	abbr         = {ICCV},
 	abstract     = {Most state-of-the-art action localization systems process each action proposal individually, without explicitly exploiting their relations during learning. However, the relations between proposals actually play an important role in action localization, since a meaningful action always consists of multiple proposals in a video. In this paper, we propose to exploit the proposal-proposal relations using GraphConvolutional Networks (GCNs). First, we construct an action proposal graph, where each proposal is represented as a node and their relations between two proposals as an edge. Here, we use two types of relations, one for capturing the context information for each proposal and the other one for characterizing the correlations between distinct actions. Then we apply the GCNs over the graph to model the relations among different proposals and learn powerful representations for the action classification and localization. Experimental results show that our approach significantly outperforms the state-of-the-art on THUMOS14(49.1% versus 42.8%). Moreover, augmentation experiments on ActivityNet also verify the efficacy of modeling action proposal relationships.}
 }
-@inproceedings{NEURIPS2020_94aef384,
-	title        = {Self-Supervised Graph Transformer on Large-Scale Molecular Data},
-	author       = {Rong, Yu and Bian, Yatao and Xu, Tingyang and Xie, Weiyang and WEI, Ying and Huang, Wenbing and Huang, Junzhou},
-	year         = 2020,
-	booktitle    = {Advances in Neural Information Processing Systems},
-	publisher    = {Curran Associates, Inc.},
-	volume       = 33,
-	pages        = {12559--12571},
-	url          = {https://proceedings.neurips.cc/paper_files/paper/2020/file/94aef38441efa3380a3bed3faf1f9d5d-Paper.pdf},
-	editor       = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin},
-	bibtex_show  = {true},
-	abbr         = {NeurIPS},
-	abstract     = {How to obtain informative representations of molecules is a crucial prerequisite in AI-driven drug design and discovery. Recent researches abstract molecules as graphs and employ Graph Neural Networks (GNNs) for molecular representation learning. Nevertheless, two issues impede the usage of GNNs in real scenarios: (1) insufficient labeled molecules for supervised training; (2) poor generalization capability to new-synthesized molecules. To address them both, we propose a novel framework, GROVER, which stands for Graph Representation frOm self-superVised mEssage passing tRansformer. With carefully designed self-supervised tasks in node-, edge- and graph-level, GROVER can learn rich structural and semantic information of molecules from enormous unlabelled molecular data. Rather, to encode such complex information, GROVER integrates Message Passing Networks into the Transformer-style architecture to deliver a class of more expressive encoders of molecules. The flexibility of GROVER allows it to be trained efficiently on large-scale molecular dataset without requiring any supervision, thus being immunized to the two issues mentioned above. We pre-train GROVER with 100 million parameters on 10 million unlabelled molecules---the biggest GNN and the largest training dataset in molecular representation learning. We then leverage the pre-trained GROVER for molecular property prediction followed by task-specific fine-tuning, where we observe a huge improvement (more than 6% on average) from current state-of-the-art methods on 11 challenging benchmarks. The insights we gained are that well-designed self-supervision losses and largely-expressive pre-trained models enjoy the significant potential on performance boosting.}
-}
+
 @inproceedings{10.1145/3366423.3380112,
 	title        = {Graph Representation Learning via Graphical Mutual Information Maximization},
 	author       = {Peng, Zhen and Huang, Wenbing and Luo, Minnan and Zheng, Qinghua and Rong, Yu and Xu, Tingyang and Huang, Junzhou},
@@ -512,25 +486,7 @@
 	bibtex_show  = {true},
 	abbr         = {ICML}
 }
-@inproceedings{10.1145/3448016.3457289,
-	title        = {A Learned Sketch for Subgraph Counting},
-	author       = {Zhao, Kangfei and Yu, Jeffrey Xu and Zhang, Hao and Li, Qiyan and Rong, Yu},
-	year         = 2021,
-	booktitle    = {Proceedings of the 2021 International Conference on Management of Data},
-	location     = {Virtual Event, China},
-	publisher    = {Association for Computing Machinery},
-	address      = {New York, NY, USA},
-	series       = {SIGMOD '21},
-	pages        = {2142–2155},
-	doi          = {10.1145/3448016.3457289},
-	isbn         = 9781450383431,
-	url          = {https://doi.org/10.1145/3448016.3457289},
-	abstract     = {Subgraph counting, as a fundamental problem in network analysis, is to count the number of subgraphs in a data graph that match a given query graph by either homomorphism or subgraph isomorphism. The importance of subgraph counting derives from the fact that it provides insights of a large graph, in particular a labeled graph, when a collection of query graphs with different sizes and labels are issued. The problem of counting is challenging. On one hand, exact counting by enumerating subgraphs is NP-hard. \% On the other hand, approximate counting by subgraph isomorphism can only support 3/5-node query graphs over unlabeled graphs. \% Another way for subgraph counting is to specify it as an SQL query and estimate the cardinality of the query in rdbm. Existing approaches for cardinality estimation can only support subgraph counting by homomorphism up to some extent, as it is difficult to deal with sampling failure when a query graph becomes large. A question that arises is if subgraph counting can be supported by machine learning (ML) and deep learning (DL). The existing DL approach for subgraph isomorphism can only support small data graphs. The ML/DL approaches proposed in rdbm context for approximate query processing and cardinality estimation cannot be used, as subgraph counting is to do complex self-joins over one relation, whereas existing approaches focus on multiple relations. In this paper, we propose an Active Learned Sketch for Subgraph Counting (ALSS) with two main components: a sketch learned (\L{}SS) and an active learner (AL). The sketch is learned by a neural network regression model, and the active learner is to perform model updates based on new arrival test query graphs. \% We conduct extensive experimental studies to confirm the effectiveness and efficiency of ALSS using large real labeled graphs. Moreover, we show that ALSS can assist query optimizers to find a better query plan for complex multi-way self-joins.},
-	numpages     = 14,
-	keywords     = {subgraph counting, deep learning},
-	bibtex_show  = {true},
-	abbr         = {SIGMOD}
-}
+
 @inproceedings{NEURIPS2021_d30960ce,
 	title        = {Not All Low-Pass Filters are Robust in Graph Convolutional Networks},
 	author       = {Chang, Heng and Rong, Yu and Xu, Tingyang and Bian, Yatao and Zhou, Shiji and Wang, Xin and Huang, Junzhou and Zhu, Wenwu},
@@ -594,22 +550,7 @@
 	bibtex_show  = {true},
 	abbr         = {KDD}
 }
-@article{Jiao_Han_Huang_Rong_Liu_2023,
-	title        = {Energy-Motivated Equivariant Pretraining for 3D Molecular Graphs},
-	author       = {Jiao, Rui and Han, Jiaqi and Huang, Wenbing and Rong, Yu and Liu, Yang},
-	year         = 2023,
-	month        = {Jun.},
-	journal      = {Proceedings of the AAAI Conference on Artificial Intelligence},
-	volume       = 37,
-	number       = 7,
-	pages        = {8096--8104},
-	doi          = {10.1609/aaai.v37i7.25978},
-	url          = {https://ojs.aaai.org/index.php/AAAI/article/view/25978},
-	abstract     = {Pretraining molecular representation models without labels is fundamental to various applications. Conventional methods mainly process 2D molecular graphs and focus solely on 2D tasks, making their pretrained models incapable of characterizing 3D geometry and thus defective for downstream 3D tasks. In this work, we tackle 3D molecular pretraining in a complete and novel sense. In particular, we first propose to adopt an equivariant energy-based model as the backbone for pretraining, which enjoys the merits of fulfilling the symmetry of 3D space. Then we develop a node-level pretraining loss for force prediction, where we further exploit the Riemann-Gaussian distribution to ensure the loss to be E(3)-invariant, enabling more robustness. Moreover, a graph-level noise scale prediction task is also leveraged to further promote the eventual performance. We evaluate our model pretrained from a large-scale 3D dataset GEOM-QM9 on two challenging 3D benchmarks: MD17 and QM9. Experimental results demonstrate the efficacy of our method against current state-of-the-art pretraining approaches, and verify the validity of our design for each proposed component. Code is available at https://github.com/jiaor17/3D-EMGP.},
-	bibtex_show  = {true},
-	abbr         = {AAAI},
-	slides       = {AAAI23-3DEMGP_pub.pdf}
-}
+
 @inproceedings{pmlr-v139-du21f,
 	title        = {Learning Diverse-Structured Networks for Adversarial Robustness},
 	author       = {Du, Xuefeng and Zhang, Jingfeng and Han, Bo and Liu, Tongliang and Rong, Yu and Niu, Gang and Huang, Junzhou and Sugiyama, Masashi},
@@ -724,46 +665,9 @@
 	bibtex_show  = {true},
 	abbr         = {ACS Omega}
 }
-@article{9457127,
-	title        = {Finding Critical Users in Social Communities via Graph Convolutions},
-	author       = {Zhao, Kangfei and Zhang, Zhiwei and Rong, Yu and Yu, Jeffrey Xu and Huang, Junzhou},
-	year         = 2023,
-	journal      = {IEEE Transactions on Knowledge and Data Engineering},
-	volume       = 35,
-	number       = 1,
-	pages        = {456--468},
-	doi          = {10.1109/TKDE.2021.3089763},
-	abstract     = {Finding critical users whose existence keeps a social community cohesive and large is an important issue in social networks. In the literature, such criticalness of a user is measured by the number of followers who will leave the community together when the user leaves. By taking a social community as a k -core, which can be computed in linear time, the problem of finding critical users is to find a set of nodes, U , with a user-given size b in a k -core community that maximizes the number of nodes (followers) to be deleted from the k -core when all nodes in U are deleted. This problem is known to be NP-hard. In the literature, the state-of-the-art approach, a greedy algorithm is proposed with no guarantee on the set of nodes U found, since there does not exist a submodular function the greedy algorithm can use to get a better answer iteratively. Furthermore, the greedy algorithm designed is to handle k -core in any social networks such that it does not consider the structural complexity of a given single graph and cannot get the global optimal by the local optimal found in iterations. In this paper, we propose a novel learning-based approach. Distinguished from traditional experience-based heuristics, we propose a neural network model, called Self-attentive Core Graph Convolution Network ( SCGCN ), to capture the hidden structure of the criticalness among node combinations that break the engagement of a specific social community. Supervised by sampling node combinations, SCGCN has the ability to inference the criticalness of unseen combinations of nodes. To further reduce the sampling and inference space, we propose a deterministic strategy to prune unpromising nodes on the graph. Our experiments conducted on many real-world graphs show that SCGCN significantly improves the quality of the solution compared with the state-of-the-art greedy algorithm.},
-	bibtex_show  = {true},
-	abbr         = {TKDE}
-}
-@article{9875050,
-	title        = {Semi-Supervised Hierarchical Graph Classification},
-	author       = {Li, Jia and Huang, Yongfeng and Chang, Heng and Rong, Yu},
-	year         = 2023,
-	journal      = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
-	volume       = 45,
-	number       = 5,
-	pages        = {6265--6276},
-	doi          = {10.1109/TPAMI.2022.3203703},
-	abstract     = {Node classification and graph classification are two graph learning problems that predict the class label of a node and the class label of a graph respectively. A node of a graph usually represents a real-world entity, e.g., a user in a social network, or a document in a document citation network. In this work, we consider a more challenging but practically useful setting, in which a node itself is a graph instance. This leads to a hierarchical graph perspective which arises in many domains such as social network, biological network and document collection. We study the node classification problem in the hierarchical graph where a “node” is a graph instance. As labels are usually limited, we design a novel semi-supervised solution named SEAL-CI. SEAL-CI adopts an iterative framework that takes turns to update two modules, one working at the graph instance level and the other at the hierarchical graph level. To enforce a consistency among different levels of hierarchical graph, we propose the Hierarchical Graph Mutual Information (HGMI) and further present a way to compute HGMI with theoretical guarantee. We demonstrate the effectiveness of this hierarchical graph modeling and the proposed SEAL-CI method on text and social network data.},
-	bibtex_show  = {true},
-	abbr         = {TPAMI}
-}
-@inproceedings{NEURIPS2022_3bdeb28a,
-	title        = {Equivariant Graph Hierarchy-Based Neural Networks},
-	author       = {Han, Jiaqi and Huang, Wenbing and Xu, Tingyang and Rong, Yu},
-	year         = 2022,
-	booktitle    = {Advances in Neural Information Processing Systems},
-	publisher    = {Curran Associates, Inc.},
-	volume       = 35,
-	pages        = {9176--9187},
-	url          = {https://proceedings.neurips.cc/paper_files/paper/2022/file/3bdeb28a531f7af94b56bcdf8ee88f17-Paper-Conference.pdf},
-	editor       = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},
-	abstract     = {Equivariant Graph neural Networks (EGNs) are powerful in characterizing the dynamics of multi-body physical systems. Existing EGNs conduct flat message passing, which, yet, is unable to capture the spatial/dynamical hierarchy for complex systems particularly, limiting substructure discovery and global information fusion. In this paper, we propose Equivariant Hierarchy-based Graph Networks (EGHNs) which consist of the three key components: generalized Equivariant Matrix Message Passing (EMMP) , E-Pool and E-UnPool. In particular, EMMP is able to improve the expressivity of conventional equivariant message passing, E-Pool assigns the quantities of the low-level nodes into high-level clusters, while E-UnPool leverages the high-level information to update the dynamics of the low-level nodes. As their names imply, both E-Pool and E-UnPool are guaranteed to be equivariant to meet physic symmetry. Considerable experimental evaluations verify the effectiveness of our EGHN on several applications including multi-object dynamics simulation, motion capture, and protein dynamics modeling.},
-	bibtex_show  = {true},
-	abbr         = {NeurIPS}
-}
+
+
+
 @inproceedings{pmlr-v196-chen22a,
 	title        = {Diversified Multiscale Graph Learning with Graph Self-Correction},
 	author       = {Chen, Yuzhao and Bian, Yatao and Zhang, Jiying and Xiao, Xi and Xv, Tingyang and Rong, Yu},
@@ -984,20 +888,7 @@
 	bibtex_show  = {true},
 	abbr         = {BIBM}
 }
-@inproceedings{10.1007/978-3-030-73197-7_53,
-	title        = {Towards Expectation-Maximization by SQL in RDBMS},
-	author       = {Zhao, Kangfei and Yu, Jeffrey Xu and Rong, Yu and Liao, Ming and Huang, Junzhou},
-	year         = 2021,
-	booktitle    = {Database Systems for Advanced Applications},
-	publisher    = {Springer International Publishing},
-	address      = {Cham},
-	pages        = {778--794},
-	isbn         = {978-3-030-73197-7},
-	editor       = {Jensen, Christian S. and Lim, Ee-Peng and Yang, De-Nian and Lee, Wang-Chien and Tseng, Vincent S. and Kalogeraki, Vana and Huang, Jen-Wei and Shen, Chih-Ya},
-	abstract     = {Integrating machine learning techniques into RDBMSs is an important task since many real applications require modeling (e.g., business intelligence, strategic analysis) as well as querying data in RDBMSs. Without integration, it needs to export the data from RDBMSs to build a model using specialized ML toolkits and frameworks, and import the model trained back to RDBMSs for further querying. Such a process is not desirable since it is time-consuming and needs to repeat when data is changed. In this paper, we provide an SQL solution that has the potential to support different ML models in RDBMSs. We study how to support unsupervised probabilistic modeling, that has a wide range of applications in clustering, density estimation, and data summarization, and focus on Expectation-Maximization (EM) algorithms, which is a general technique for finding maximum likelihood estimators. To train a model by EM, it needs to update the model parameters by an E-step and an M-step in a while-loop iteratively until it converges to a level controlled by some thresholds or repeats a certain number of iterations. To support EM in RDBMSs, we show our solutions to the matrix/vectors representations in RDBMSs, the relational algebra operations to support the linear algebra operations required by EM, parameters update by relational algebra, and the support of a while-loop by SQL recursion. It is important to note that the SQL '99 recursion cannot be used to handle such a while-loop since the M-step is non-monotonic. In addition, with a model trained by an EM algorithm, we further design an automatic in-database model maintenance mechanism to maintain the model when the underlying training data changes. We have conducted experimental studies and will report our findings in this paper.},
-	bibtex_show  = {true},
-	abbr         = {DASFAA}
-}
+
 @inproceedings{10.1145/3132847.3132931,
 	title        = {Minimizing Dependence between Graphs},
 	author       = {Rong, Yu and Cheng, Hong},
@@ -1017,7 +908,110 @@
 	bibtex_show  = {true},
 	abbr         = {CIKM}
 }
+// 2019
+// 2020
+@inproceedings{DBLP:conf/iclr/RongHXH20,
+	title        = {DropEdge: Towards Deep Graph Convolutional Networks on Node Classification},
+	author       = {Yu Rong and Wenbing Huang and Tingyang Xu and Junzhou Huang},
+	year         = 2020,
+	booktitle    = {8th International Conference on Learning Representations, {ICLR} 2020},
+	publisher    = {OpenReview.net},
+	url          = {https://openreview.net/forum?id=Hkx1qkrKPr},
+	timestamp    = {Thu, 29 Jul 2021 17:20:43 +0200},
+	biburl       = {https://dblp.org/rec/conf/iclr/RongHXH20.bib},
+	bibsource    = {dblp computer science bibliography, https://dblp.org},
+	bibtex_show  = {true},
+	abbr         = {ICLR},
+	abstract     = {Over-fitting and over-smoothing are two main obstacles of developing deep Graph Convolutional Networks (GCNs) for node classification. In particular, over-fitting weakens the generalization ability on small dataset, while over-smoothing impedes model training by isolating output representations from the input features with the increase in network depth. This paper proposes DropEdge, a novel and flexible technique to alleviate both issues. At its core, DropEdge randomly removes a certain number of edges from the input graph at each training epoch, acting like a data augmenter and also a message passing reducer. Furthermore, we theoretically demonstrate that DropEdge either reduces the convergence speed of over-smoothing or relieves the information loss caused by it. More importantly, our DropEdge is a general skill that can be equipped with many other backbone models (e.g. GCN, ResGCN, GraphSAGE, and JKNet) for enhanced performance. Extensive experiments on several benchmarks verify that DropEdge consistently improves the performance on a variety of both shallow and deep GCNs. The effect of DropEdge on preventing over-smoothing is empirically visualized and validated as well. Codes are released on~https://github.com/DropEdge/DropEdge.},
+	selected     = {true},
+	pdf          = {DropEdge_upd2.pdf},
+}
+@inproceedings{NEURIPS2020_94aef384,
+	title        = {Self-Supervised Graph Transformer on Large-Scale Molecular Data},
+	author       = {Rong, Yu and Bian, Yatao and Xu, Tingyang and Xie, Weiyang and WEI, Ying and Huang, Wenbing and Huang, Junzhou},
+	year         = 2020,
+	booktitle    = {Advances in Neural Information Processing Systems},
+	publisher    = {Curran Associates, Inc.},
+	volume       = 33,
+	pages        = {12559--12571},
+	url          = {https://proceedings.neurips.cc/paper_files/paper/2020/file/94aef38441efa3380a3bed3faf1f9d5d-Paper.pdf},
+	editor       = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin},
+	bibtex_show  = {true},
+	abbr         = {NeurIPS},
+	abstract     = {How to obtain informative representations of molecules is a crucial prerequisite in AI-driven drug design and discovery. Recent researches abstract molecules as graphs and employ Graph Neural Networks (GNNs) for molecular representation learning. Nevertheless, two issues impede the usage of GNNs in real scenarios: (1) insufficient labeled molecules for supervised training; (2) poor generalization capability to new-synthesized molecules. To address them both, we propose a novel framework, GROVER, which stands for Graph Representation frOm self-superVised mEssage passing tRansformer. With carefully designed self-supervised tasks in node-, edge- and graph-level, GROVER can learn rich structural and semantic information of molecules from enormous unlabelled molecular data. Rather, to encode such complex information, GROVER integrates Message Passing Networks into the Transformer-style architecture to deliver a class of more expressive encoders of molecules. The flexibility of GROVER allows it to be trained efficiently on large-scale molecular dataset without requiring any supervision, thus being immunized to the two issues mentioned above. We pre-train GROVER with 100 million parameters on 10 million unlabelled molecules---the biggest GNN and the largest training dataset in molecular representation learning. We then leverage the pre-trained GROVER for molecular property prediction followed by task-specific fine-tuning, where we observe a huge improvement (more than 6% on average) from current state-of-the-art methods on 11 challenging benchmarks. The insights we gained are that well-designed self-supervision losses and largely-expressive pre-trained models enjoy the significant potential on performance boosting.},
+	slides       = {NeurIPS2020-grover_pub.pdf}
+	selected     = {true}
+}
+
+// 2021
+@inproceedings{10.1007/978-3-030-73197-7_53,
+	title        = {Towards Expectation-Maximization by SQL in RDBMS},
+	author       = {Zhao, Kangfei and Yu, Jeffrey Xu and Rong, Yu and Liao, Ming and Huang, Junzhou},
+	year         = 2021,
+	booktitle    = {Database Systems for Advanced Applications},
+	publisher    = {Springer International Publishing},
+	address      = {Cham},
+	pages        = {778--794},
+	isbn         = {978-3-030-73197-7},
+	editor       = {Jensen, Christian S. and Lim, Ee-Peng and Yang, De-Nian and Lee, Wang-Chien and Tseng, Vincent S. and Kalogeraki, Vana and Huang, Jen-Wei and Shen, Chih-Ya},
+	abstract     = {Integrating machine learning techniques into RDBMSs is an important task since many real applications require modeling (e.g., business intelligence, strategic analysis) as well as querying data in RDBMSs. Without integration, it needs to export the data from RDBMSs to build a model using specialized ML toolkits and frameworks, and import the model trained back to RDBMSs for further querying. Such a process is not desirable since it is time-consuming and needs to repeat when data is changed. In this paper, we provide an SQL solution that has the potential to support different ML models in RDBMSs. We study how to support unsupervised probabilistic modeling, that has a wide range of applications in clustering, density estimation, and data summarization, and focus on Expectation-Maximization (EM) algorithms, which is a general technique for finding maximum likelihood estimators. To train a model by EM, it needs to update the model parameters by an E-step and an M-step in a while-loop iteratively until it converges to a level controlled by some thresholds or repeats a certain number of iterations. To support EM in RDBMSs, we show our solutions to the matrix/vectors representations in RDBMSs, the relational algebra operations to support the linear algebra operations required by EM, parameters update by relational algebra, and the support of a while-loop by SQL recursion. It is important to note that the SQL '99 recursion cannot be used to handle such a while-loop since the M-step is non-monotonic. In addition, with a model trained by an EM algorithm, we further design an automatic in-database model maintenance mechanism to maintain the model when the underlying training data changes. We have conducted experimental studies and will report our findings in this paper.},
+	bibtex_show  = {true},
+	abbr         = {DASFAA},
+	pdf          = {Towards Expectation-Maximization by SQL in RDBMS.pdf}
+}
+
+@inproceedings{10.1145/3448016.3457289,
+	title        = {A Learned Sketch for Subgraph Counting},
+	author       = {Zhao, Kangfei and Yu, Jeffrey Xu and Zhang, Hao and Li, Qiyan and Rong, Yu},
+	year         = 2021,
+	booktitle    = {Proceedings of the 2021 International Conference on Management of Data},
+	location     = {Virtual Event, China},
+	publisher    = {Association for Computing Machinery},
+	address      = {New York, NY, USA},
+	series       = {SIGMOD '21},
+	pages        = {2142–2155},
+	doi          = {10.1145/3448016.3457289},
+	isbn         = 9781450383431,
+	url          = {https://doi.org/10.1145/3448016.3457289},
+	abstract     = {Subgraph counting, as a fundamental problem in network analysis, is to count the number of subgraphs in a data graph that match a given query graph by either homomorphism or subgraph isomorphism. The importance of subgraph counting derives from the fact that it provides insights of a large graph, in particular a labeled graph, when a collection of query graphs with different sizes and labels are issued. The problem of counting is challenging. On one hand, exact counting by enumerating subgraphs is NP-hard. \% On the other hand, approximate counting by subgraph isomorphism can only support 3/5-node query graphs over unlabeled graphs. \% Another way for subgraph counting is to specify it as an SQL query and estimate the cardinality of the query in rdbm. Existing approaches for cardinality estimation can only support subgraph counting by homomorphism up to some extent, as it is difficult to deal with sampling failure when a query graph becomes large. A question that arises is if subgraph counting can be supported by machine learning (ML) and deep learning (DL). The existing DL approach for subgraph isomorphism can only support small data graphs. The ML/DL approaches proposed in rdbm context for approximate query processing and cardinality estimation cannot be used, as subgraph counting is to do complex self-joins over one relation, whereas existing approaches focus on multiple relations. In this paper, we propose an Active Learned Sketch for Subgraph Counting (ALSS) with two main components: a sketch learned (\L{}SS) and an active learner (AL). The sketch is learned by a neural network regression model, and the active learner is to perform model updates based on new arrival test query graphs. \% We conduct extensive experimental studies to confirm the effectiveness and efficiency of ALSS using large real labeled graphs. Moreover, we show that ALSS can assist query optimizers to find a better query plan for complex multi-way self-joins.},
+	numpages     = 14,
+	keywords     = {subgraph counting, deep learning},
+	bibtex_show  = {true},
+	abbr         = {SIGMOD},
+	pdf          = {A Learned Sketch for Subgraph Counting.pdf}
+}
+// 2022
+@inproceedings{NEURIPS2022_3bdeb28a,
+	title        = {Equivariant Graph Hierarchy-Based Neural Networks},
+	author       = {Han, Jiaqi and Huang, Wenbing and Xu, Tingyang and Rong, Yu},
+	year         = 2022,
+	booktitle    = {Advances in Neural Information Processing Systems},
+	publisher    = {Curran Associates, Inc.},
+	volume       = 35,
+	pages        = {9176--9187},
+	url          = {https://proceedings.neurips.cc/paper_files/paper/2022/file/3bdeb28a531f7af94b56bcdf8ee88f17-Paper-Conference.pdf},
+	editor       = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},
+	abstract     = {Equivariant Graph neural Networks (EGNs) are powerful in characterizing the dynamics of multi-body physical systems. Existing EGNs conduct flat message passing, which, yet, is unable to capture the spatial/dynamical hierarchy for complex systems particularly, limiting substructure discovery and global information fusion. In this paper, we propose Equivariant Hierarchy-based Graph Networks (EGHNs) which consist of the three key components: generalized Equivariant Matrix Message Passing (EMMP) , E-Pool and E-UnPool. In particular, EMMP is able to improve the expressivity of conventional equivariant message passing, E-Pool assigns the quantities of the low-level nodes into high-level clusters, while E-UnPool leverages the high-level information to update the dynamics of the low-level nodes. As their names imply, both E-Pool and E-UnPool are guaranteed to be equivariant to meet physic symmetry. Considerable experimental evaluations verify the effectiveness of our EGHN on several applications including multi-object dynamics simulation, motion capture, and protein dynamics modeling.},
+	bibtex_show  = {true},
+	abbr         = {NeurIPS},
+	slides       = {NeurIPS2022-EGHN_beamer.pdf}
+}
 // 2023
+@article{9875050,
+	title        = {Semi-Supervised Hierarchical Graph Classification},
+	author       = {Li, Jia and Huang, Yongfeng and Chang, Heng and Rong, Yu},
+	year         = 2023,
+	journal      = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+	volume       = 45,
+	number       = 5,
+	pages        = {6265--6276},
+	doi          = {10.1109/TPAMI.2022.3203703},
+	abstract     = {Node classification and graph classification are two graph learning problems that predict the class label of a node and the class label of a graph respectively. A node of a graph usually represents a real-world entity, e.g., a user in a social network, or a document in a document citation network. In this work, we consider a more challenging but practically useful setting, in which a node itself is a graph instance. This leads to a hierarchical graph perspective which arises in many domains such as social network, biological network and document collection. We study the node classification problem in the hierarchical graph where a “node” is a graph instance. As labels are usually limited, we design a novel semi-supervised solution named SEAL-CI. SEAL-CI adopts an iterative framework that takes turns to update two modules, one working at the graph instance level and the other at the hierarchical graph level. To enforce a consistency among different levels of hierarchical graph, we propose the Hierarchical Graph Mutual Information (HGMI) and further present a way to compute HGMI with theoretical guarantee. We demonstrate the effectiveness of this hierarchical graph modeling and the proposed SEAL-CI method on text and social network data.},
+	bibtex_show  = {true},
+	abbr         = {TPAMI},
+	pdf          = {Semi-Supervised Hierarchical Graph Classification.pdf}
+}
+
 @article{10195874,
 	title        = {Structure-Aware DropEdge Toward Deep Graph Convolutional Networks},
 	author       = {Han, Jiaqi and Huang, Wenbing and Rong, Yu and Xu, Tingyang and Sun, Fuchun and Huang, Junzhou},
@@ -1106,27 +1100,7 @@
 	abbr         = {BRIEF BIOINFORM},
 	selected     = {false}
 }
-@inproceedings{10.1145/3583780.3614893,
-	title        = {Geometric Graph Learning for Protein Mutation Effect Prediction},
-	author       = {Zhao, Kangfei and Rong, Yu and Jiang, Biaobin and Tang, Jianheng and Zhang, Hengtong and Yu, Jeffrey Xu and Zhao, Peilin},
-	year         = 2023,
-	booktitle    = {Proceedings of the 32nd ACM International Conference on Information and Knowledge Management},
-	location     = {Birmingham, United Kingdom},
-	publisher    = {Association for Computing Machinery},
-	address      = {New York, NY, USA},
-	series       = {CIKM '23},
-	pages        = {3412–3422},
-	doi          = {10.1145/3583780.3614893},
-	isbn         = 9798400701245,
-	url          = {https://doi.org/10.1145/3583780.3614893},
-	abstract     = {Proteins govern a wide range of biological systems. Evaluating the changes in protein properties upon protein mutation is a fundamental application of protein design, where modeling the 3D protein structure is a principal task for AI-driven computational approaches. Existing deep learning (DL) approaches represent the protein structure as a 3D geometric graph and simplify the graph modeling to different degrees, thereby failing to capture the low-level atom patterns and high-level amino acid patterns simultaneously. In addition, limited training samples with ground truth labels and protein structures further restrict the effectiveness of DL approaches. In this paper, we propose a new graph learning framework, Hierarchical Graph Invariant Network (HGIN), a fine-grained and data-efficient graph neural encoder for encoding protein structures and predicting the mutation effect on protein properties. For fine-grained modeling, HGIN hierarchically models the low-level interactions of atoms and the high-level interactions of amino acid residues by Graph Neural Networks. For data efficiency, HGIN preserves the invariant encoding for atom permutation and coordinate transformation, which is an intrinsic inductive bias of property prediction that bypasses data augmentations. We integrate HGIN into a Siamese network to predict the quantitative effect on protein properties upon mutations. Our approach outperforms 9 state-of-the-art approaches on 3 protein datasets. More inspiringly, when predicting the neutralizing ability of human antibodies against COVID-19 mutant viruses, HGIN achieves an absolute improvement of 0.23 regarding the Spearman coefficient.},
-	numpages     = 11,
-	keywords     = {graph neural network, geometric graph learning},
-	pdf          = {https://drive.google.com/file/u/1/d/1iHYjXvsHp_Qgvie9KZ7qx7UHxlvJWFqP/view},
-	bibtex_show  = {true},
-	abbr         = {CIKM},
-	selected     = {true}
-}
+
 @inproceedings{10.1145/3580305.3599475,
 	title        = {Privacy Matters: Vertical Federated Linear Contextual Bandits for Privacy Protected Recommendation},
 	author       = {Cao, Zeyu and Liang, Zhipeng and Wu, Bingzhe and Zhang, Shu and Li, Hangyu and Wen, Ouyang and Rong, Yu and Zhao, Peilin},
@@ -1147,6 +1121,61 @@
 	abbr         = {KDD},
 	selected     = {true}
 }
+
+@article{Jiao_Han_Huang_Rong_Liu_2023,
+	title        = {Energy-Motivated Equivariant Pretraining for 3D Molecular Graphs},
+	author       = {Jiao, Rui and Han, Jiaqi and Huang, Wenbing and Rong, Yu and Liu, Yang},
+	year         = 2023,
+	month        = {Jun.},
+	journal      = {Proceedings of the AAAI Conference on Artificial Intelligence},
+	volume       = 37,
+	number       = 7,
+	pages        = {8096--8104},
+	doi          = {10.1609/aaai.v37i7.25978},
+	url          = {https://ojs.aaai.org/index.php/AAAI/article/view/25978},
+	abstract     = {Pretraining molecular representation models without labels is fundamental to various applications. Conventional methods mainly process 2D molecular graphs and focus solely on 2D tasks, making their pretrained models incapable of characterizing 3D geometry and thus defective for downstream 3D tasks. In this work, we tackle 3D molecular pretraining in a complete and novel sense. In particular, we first propose to adopt an equivariant energy-based model as the backbone for pretraining, which enjoys the merits of fulfilling the symmetry of 3D space. Then we develop a node-level pretraining loss for force prediction, where we further exploit the Riemann-Gaussian distribution to ensure the loss to be E(3)-invariant, enabling more robustness. Moreover, a graph-level noise scale prediction task is also leveraged to further promote the eventual performance. We evaluate our model pretrained from a large-scale 3D dataset GEOM-QM9 on two challenging 3D benchmarks: MD17 and QM9. Experimental results demonstrate the efficacy of our method against current state-of-the-art pretraining approaches, and verify the validity of our design for each proposed component. Code is available at https://github.com/jiaor17/3D-EMGP.},
+	bibtex_show  = {true},
+	abbr         = {AAAI},
+	slides       = {AAAI23-3DEMGP_pub.pdf}
+}
+@inproceedings{10.1145/3583780.3614893,
+	title        = {Geometric Graph Learning for Protein Mutation Effect Prediction},
+	author       = {Zhao, Kangfei and Rong, Yu and Jiang, Biaobin and Tang, Jianheng and Zhang, Hengtong and Yu, Jeffrey Xu and Zhao, Peilin},
+	year         = 2023,
+	booktitle    = {Proceedings of the 32nd ACM International Conference on Information and Knowledge Management},
+	location     = {Birmingham, United Kingdom},
+	publisher    = {Association for Computing Machinery},
+	address      = {New York, NY, USA},
+	series       = {CIKM '23},
+	pages        = {3412–3422},
+	doi          = {10.1145/3583780.3614893},
+	isbn         = 9798400701245,
+	url          = {https://doi.org/10.1145/3583780.3614893},
+	abstract     = {Proteins govern a wide range of biological systems. Evaluating the changes in protein properties upon protein mutation is a fundamental application of protein design, where modeling the 3D protein structure is a principal task for AI-driven computational approaches. Existing deep learning (DL) approaches represent the protein structure as a 3D geometric graph and simplify the graph modeling to different degrees, thereby failing to capture the low-level atom patterns and high-level amino acid patterns simultaneously. In addition, limited training samples with ground truth labels and protein structures further restrict the effectiveness of DL approaches. In this paper, we propose a new graph learning framework, Hierarchical Graph Invariant Network (HGIN), a fine-grained and data-efficient graph neural encoder for encoding protein structures and predicting the mutation effect on protein properties. For fine-grained modeling, HGIN hierarchically models the low-level interactions of atoms and the high-level interactions of amino acid residues by Graph Neural Networks. For data efficiency, HGIN preserves the invariant encoding for atom permutation and coordinate transformation, which is an intrinsic inductive bias of property prediction that bypasses data augmentations. We integrate HGIN into a Siamese network to predict the quantitative effect on protein properties upon mutations. Our approach outperforms 9 state-of-the-art approaches on 3 protein datasets. More inspiringly, when predicting the neutralizing ability of human antibodies against COVID-19 mutant viruses, HGIN achieves an absolute improvement of 0.23 regarding the Spearman coefficient.},
+	numpages     = 11,
+	keywords     = {graph neural network, geometric graph learning},
+	pdf          = {https://drive.google.com/file/u/1/d/1iHYjXvsHp_Qgvie9KZ7qx7UHxlvJWFqP/view},
+	bibtex_show  = {true},
+	abbr         = {CIKM},
+	selected     = {true},
+	slides       = {CIKM23-HGIN-paper1727}
+}
+
+@article{9457127,
+	title        = {Finding Critical Users in Social Communities via Graph Convolutions},
+	author       = {Zhao, Kangfei and Zhang, Zhiwei and Rong, Yu and Yu, Jeffrey Xu and Huang, Junzhou},
+	year         = 2023,
+	journal      = {IEEE Transactions on Knowledge and Data Engineering},
+	volume       = 35,
+	number       = 1,
+	pages        = {456--468},
+	doi          = {10.1109/TKDE.2021.3089763},
+	abstract     = {Finding critical users whose existence keeps a social community cohesive and large is an important issue in social networks. In the literature, such criticalness of a user is measured by the number of followers who will leave the community together when the user leaves. By taking a social community as a k -core, which can be computed in linear time, the problem of finding critical users is to find a set of nodes, U , with a user-given size b in a k -core community that maximizes the number of nodes (followers) to be deleted from the k -core when all nodes in U are deleted. This problem is known to be NP-hard. In the literature, the state-of-the-art approach, a greedy algorithm is proposed with no guarantee on the set of nodes U found, since there does not exist a submodular function the greedy algorithm can use to get a better answer iteratively. Furthermore, the greedy algorithm designed is to handle k -core in any social networks such that it does not consider the structural complexity of a given single graph and cannot get the global optimal by the local optimal found in iterations. In this paper, we propose a novel learning-based approach. Distinguished from traditional experience-based heuristics, we propose a neural network model, called Self-attentive Core Graph Convolution Network ( SCGCN ), to capture the hidden structure of the criticalness among node combinations that break the engagement of a specific social community. Supervised by sampling node combinations, SCGCN has the ability to inference the criticalness of unseen combinations of nodes. To further reduce the sampling and inference space, we propose a deterministic strategy to prune unpromising nodes on the graph. Our experiments conducted on many real-world graphs show that SCGCN significantly improves the quality of the solution compared with the state-of-the-art greedy algorithm.},
+	bibtex_show  = {true},
+	abbr         = {TKDE},
+	pdf          = {Finding Critical Users in Social Communities via Graph Convolutions.pdf}
+}
+
 // =========   2024 =========================
 @inproceedings{10.1145/3637528.3671957,
 	title        = {Relaxing Continuous Constraints of Equivariant Graph Neural Networks for Broad Physical Dynamics Learning},
@@ -1164,11 +1193,11 @@
 	abstract     = {Incorporating Euclidean symmetries (e.g. rotation equivariance) as inductive biases into graph neural networks has improved their generalization ability and data efficiency in unbounded physical dynamics modeling. However, in various scientific and engineering applications, the symmetries of dynamics are frequently discrete due to the boundary conditions. Thus, existing GNNs either over-look necessary symmetry, resulting in suboptimal representation ability, or impose excessive equivariance, which fails to generalize to unobserved symmetric dynamics. In this work, we propose a general Discrete Equivariant Graph Neural Network (DEGNN) that guarantees equivariance to a given discrete point group. Specifically, we show that such discrete equivariant message passing could be constructed by transforming geometric features into permutation-invariant embeddings. Through relaxing continuous equivariant constraints, DEGNN can employ more geometric feature combinations to approximate unobserved physical object interaction functions. Two implementation approaches of DEGNN are proposed based on ranking or pooling permutation-invariant functions. We apply DEGNN to various physical dynamics, ranging from particle, molecular, crowd to vehicle dynamics. In twenty scenarios, DEGNN significantly outperforms existing state-of-the-art approaches. Moreover, we show that DEGNN is data efficient, learning with less data, and can generalize across scenarios such as unobserved orientation.},
 	numpages     = 11,
 	keywords     = {equivariant graph neural network, physical dynamics},
-	pdf          = {https://dl.acm.org/doi/pdf/10.1145/3637528.3671957},
+	pdf          = {Relaxing Continuous Constraints of Equivariant Graph Neural Networks for Broad Physical Dynamics Learning.pdf},
 	code         = {https://github.com/compasszzn/DEGNN},
 	bibtex_show  = {true},
 	abbr         = {KDD},
-	selected     = {true}
+	selected     = {true},
 }
 @inproceedings{liu2024segno,
 	title        = {{SEGNO}: Generalizing Equivariant Graph Neural Networks with Physical Inductive Biases},
@@ -1196,7 +1225,8 @@
 	pdf          = {https://proceedings.neurips.cc/paper_files/paper/2023/file/8e2a75e0c7b579a6cf176dc0858cde55-Paper-Conference.pdf},
 	bibtex_show  = {true},
 	abbr         = {NeurIPS},
-	selected     = {true}
+	selected     = {true},
+	slides       = {NeurIPS2023-ESTAG.pdf}
 }
 @article{MA2024106328,
 	title        = {Solving the non-submodular network collapse problems via Decision Transformer},
@@ -1233,7 +1263,8 @@
 	bibtex_show  = {true},
 	abbr         = {VLDB},
 	code         = {https://github.com/FangShuheng/IACS},
-	selected     = {true}
+	selected     = {true},
+	slides       = {VLDB24-IACS.pdf}
 }
 @article{doi:10.1089/cmb.2023.0187,
 	title        = {Toward Robust Self-Training Paradigm for Molecular Prediction Tasks},
@@ -1282,5 +1313,6 @@
 	bibtex_show  = {true},
 	abbr         = {Nature Methods},
 	code         = {https://github.com/TencentAILabHealthcare/scPROTEIN},
-	selected     = {true}
+	selected     = {true},
+	slides       = {NM-scPROTEIN_pub.pdf},
 }
