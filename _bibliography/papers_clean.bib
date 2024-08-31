@@ -372,7 +372,11 @@
 	url          = {https://ojs.aaai.org/index.php/AAAI/article/view/25970},
 	abstract     = {AI-aided drug discovery (AIDD) is gaining popularity due to its potential to make the search for new pharmaceuticals faster, less expensive, and more effective. Despite its extensive use in numerous fields (e.g., ADMET prediction, virtual screening), little research has been conducted on the out-of-distribution (OOD) learning problem with noise. We present DrugOOD, a systematic OOD dataset curator and benchmark for AIDD. Particularly, we focus on the drug-target binding affinity prediction problem, which involves both macromolecule (protein target) and small-molecule (drug compound). DrugOOD offers an automated dataset curator with user-friendly customization scripts, rich domain annotations aligned with biochemistry knowledge, realistic noise level annotations, and rigorous benchmarking of SOTA OOD algorithms, as opposed to only providing fixed datasets. Since the molecular data is often modeled as irregular graphs using graph neural network (GNN) backbones, DrugOOD also serves as a valuable testbed for graph OOD learning problems. Extensive empirical studies have revealed a significant performance gap between in-distribution and out-of-distribution experiments, emphasizing the need for the development of more effective schemes that permit OOD generalization under noise for AIDD.},
 	bibtex_show  = {true},
-	abbr         = {AAAI}
+	abbr         = {AAAI},
+	code         = {https://github.com/tencent-ailab/DrugOOD},
+	website      = {https://drug.ai.tencent.com/drugood/}
+	pdf          = {https://arxiv.org/pdf/2201.09637}
+
 }
 @inproceedings{10.1145/3394486.3406474,
 	title        = {Deep Graph Learning: Foundations, Advances and Applications},
@@ -629,7 +633,8 @@
 	doi          = {10.1109/TKDE.2022.3153060},
 	abstract     = {With the success of the graph embedding model in both academic and industrial areas, the robustness of graph embeddings against adversarial attacks inevitably becomes a crucial problem in graph learning. Existing works usually perform the attack in a white-box fashion: they need to access the predictions/labels to construct their adversarial losses. However, the inaccessibility of predictions/labels makes the white-box attack impractical for a real graph learning system. This paper promotes current frameworks in a more general and flexible sense – we consider the ability of various types of graph embedding models to remain resilient against black-box driven attacks. We investigate the theoretical connection between graph signal processing and graph embedding models, and formulate the graph embedding model as a general graph signal process with a corresponding graph filter. Therefore, we design a generalized adversarial attack framework: GF-Attack . Without accessing any labels and model predictions, GF-Attack can perform the attack directly on the graph filter in a black-box fashion. We further prove that GF-Attack can perform an effective attack without assumption on the number of layers/window-size of graph embedding models. To validate the generalization of GF-Attack , we construct GF-Attack on five popular graph embedding models. Extensive experiments validate the effectiveness of GF-Attack on several benchmark datasets.},
 	bibtex_show  = {true},
-	abbr         = {TKDE}
+	abbr         = {TKDE},
+	code         = {https://github.com/SwiftieH/GFAttack},
 }
 @inproceedings{10.1145/3459637.3482310,
 	title        = {Unsupervised Large-Scale Social Network Alignment via Cross Network Embedding},
@@ -709,7 +714,8 @@
 	editor       = {Zhang, Wenjie and Zou, Lei and Maamar, Zakaria and Chen, Lu},
 	abstract     = {Graph ordering concentrates on optimizing graph layouts, which has a wide range of real applications. As an NP-hard problem, traditional approaches solve it via greedy algorithms. To overcome the shortsightedness and inflexibility of the hand-crafted heuristics, we propose a learning-based framework: Deep Ordering Network with Reinforcement Learning (DON-RL) to capture the hidden structure from partial vertex order sets over a specific large graph. In DON-RL, we propose a permutation invariant neural network DON to encode the information from partial vertex order. Furthermore, to alleviate the combinatorial explosion for partial vertex order sets and make the efficient training data sampling, we propose RL-Sampler, a reinforcement learning-based sampler to tune the vertex sampling probabilities adaptively during the training phase of DON. Comprehensive experiments on both synthetic and real graphs validate that our approach outperforms the state-of-the-art heuristic algorithm consistently. The case study on graph compression demonstrates the potentials of DON-RL in real applications.},
 	bibtex_show  = {true},
-	abbr         = {WISE}
+	abbr         = {WISE},
+	code         = {https://github.com/Kangfei/DON}
 }
 @article{JIANG2023409,
 	title        = {Exploiting node-feature bipartite graph in graph convolutional networks},
@@ -808,7 +814,9 @@
 	note         = {},
 	abstract     = {Teaching Graph Neural Networks (GNNs) to accurately classify nodes under severely noisy labels is an important problem in real-world graph learning applications, but is currently underexplored. Although pairwise training methods have demonstrated promise in supervised metric learning and unsupervised contrastive learning, they remain less studied on noisy graphs, where the structural pairwise interactions (PI) between nodes are abundant and thus might benefit label noise learning rather than the pointwise methods. This paper bridges the gap by proposing a pairwise framework for noisy node classification on graphs, which relies on the PI as a primary learning proxy in addition to the pointwise learning from the noisy node class labels. Our proposed framework PI-GNN contributes two novel components: (1) a confidence-aware PI estimation model that adaptively estimates the PI labels, which are defined as whether the two nodes share the same node labels, and (2) a decoupled training approach that leverages the estimated PI labels to regularize a node classification model for robust node classification. Extensive experiments on different datasets and GNN architectures demonstrate the effectiveness of PI-GNN, yielding a promising improvement over the state-of-the-art methods. Code is publicly available at https://github.com/TianBian95/pi-gnn.},
 	bibtex_show  = {true},
-	abbr         = {TMLR}
+	abbr         = {TMLR},
+	code         = {Noise-robust Graph Learning by Estimating and Leveraging Pairwise Interactions},
+	pdf          = {https://openreview.net/pdf?id=r7imkFEAQb}
 }
 @article{10.14778/3407790.3407838,
 	title        = {Maximizing the Reduction Ability for Near-Maximum Independent Set Computation},
@@ -1023,7 +1031,8 @@
 	doi          = {10.1109/TNNLS.2023.3288484},
 	abstract     = {It has been discovered that graph convolutional networks (GCNs) encounter a remarkable drop in performance when multiple layers are piled up. The main factor that accounts for why deep GCNs fail lies in oversmoothing, which isolates the network output from the input with the increase of network depth, weakening expressivity and trainability. In this article, we start by investigating refined measures upon DropEdge—an existing simple yet effective technique to relieve oversmoothing. We term our method as DropEdge ++ for its two structure-aware samplers in contrast to DropEdge: layer-dependent (LD) sampler and feature-dependent (FD) sampler. Regarding the LD sampler, we interestingly find that increasingly sampling edges from the bottom layer yields superior performance than the decreasing counterpart as well as DropEdge. We theoretically reveal this phenomenon with mean-edge-number (MEN), a metric closely related to oversmoothing. For the FD sampler, we associate the edge sampling probability with the feature similarity of node pairs and prove that it further correlates the convergence subspace of the output layer with the input features. Extensive experiments on several node classification benchmarks, including both full-and semi-supervised tasks, illustrate the efficacy of DropEdge ++ and its compatibility with a variety of backbones by achieving generally better performance over DropEdge and the no-drop version.},
 	bibtex_show  = {true},
-	abbr         = {TNNLS}
+	abbr         = {TNNLS},
+	code         = {https://github.com/hanjq17/DropEdgePlus}
 }
 @article{10.14778/3594512.3594514,
 	title        = {Computing Graph Edit Distance via Neural Graph Matching},
@@ -1042,7 +1051,8 @@
 	abstract     = {Graph edit distance (GED) computation is a fundamental NP-hard problem in graph theory. Given a graph pair (G1, G2), GED is defined as the minimum number of primitive operations converting G1 to G2. Early studies focus on search-based inexact algorithms such as A*-beam search, and greedy algorithms using bipartite matching due to its NP-hardness. They can obtain a sub-optimal solution by constructing an edit path (the sequence of operations that converts G1 to G2). Recent studies convert the GED between a given graph pair (G1, G2) into a similarity score in the range (0, 1) by a well designed function. Then machine learning models (mostly based on graph neural networks) are applied to predict the similarity score. They achieve a much higher numerical precision than the sub-optimal solutions found by classical algorithms. However, a major limitation is that these machine learning models cannot generate an edit path. They treat the GED computation as a pure regression task to bypass its intrinsic complexity, but ignore the essential task of converting G1 to G2. This severely limits the interpretability and usability of the solution.In this paper, we propose a novel deep learning framework that solves the GED problem in a two-step manner: 1) The proposed graph neural network GEDGNN is in charge of predicting the GED value and a matching matrix; and 2) A post-processing algorithm based on k-best matching is used to derive k possible node matchings from the matching matrix generated by GEDGNN. The best matching will finally lead to a high-quality edit path. Extensive experiments are conducted on three real graph data sets and synthetic power-law graphs to demonstrate the effectiveness of our framework. Compared to the best result of existing GNN-based models, the mean absolute error (MAE) on GED value prediction decreases by 4.9\% ~ 74.3\%. Compared to the state-of-the-art searching algorithm Noah, the MAE on GED value based on edit path reduces by 53.6\% ~ 88.1\%.},
 	numpages     = 13,
 	bibtex_show  = {true},
-	abbr         = {VLDB}
+	abbr         = {VLDB},
+	url          = {https://github.com/ChengzhiPiao/GEDGNN}
 }
 @inproceedings{10184846,
 	title        = {Decision Support System for Chronic Diseases Based on Drug-Drug Interactions},
@@ -1060,7 +1070,8 @@
 	abstract     = {Many patients with chronic diseases resort to multiple medications to relieve various symptoms, which raises concerns about the safety of multiple medication use, as severe drug-drug antagonism can lead to serious adverse effects or even death. This paper presents a Decision Support System, called DSSDDI, based on drug-drug interactions to support doctors prescribing decisions. DSSDDI contains three modules, Drug-Drug Interaction (DDI) module, Medical Decision (MD) module and Medical Support (MS) module. The DDI module learns safer and more effective drug representations from the drug-drug interactions. To capture the potential causal relationship between DDI and medication use, the MD module considers the representations of patients and drugs as context, DDI and patients’ similarity as treatment, and medication use as outcome to construct counterfactual links for the representation learning. Furthermore, the MS module provides drug candidates to doctors with explanations. Experiments on the chronic data collected from the Hong Kong Chronic Disease Study Project and a public diagnostic data MIMIC-III demonstrate that DSSDDI can be a reliable reference for doctors in terms of safety and efficiency of clinical diagnosis, with significant improvements compared to baseline methods. Source code of the proposed DSSDDI is publicly available at https://github.com/TianBian95/DSSDDI.},
 	keywords     = {decision support systems;drugs;representation learning;source coding;mimics;data engineering;safety},
 	bibtex_show  = {true},
-	abbr         = {ICDE}
+	abbr         = {ICDE},
+	code         = {https://github.com/TianBian95/DSSDDI},
 }
 @article{Tao2023,
 	title        = {Collaborative and privacy-preserving retired battery sorting for profitable direct recycling via federated machine learning},
@@ -1098,7 +1109,8 @@
 	pdf          = {https://academic.oup.com/bib/article-pdf/24/6/bbad391/52778081/bbad391.pdf},
 	bibtex_show  = {true},
 	abbr         = {BRIEF BIOINFORM},
-	selected     = {false}
+	selected     = {false},
+	code         = {https://github.com/zhanglabNKU/scMHNN},
 }
 
 @inproceedings{10.1145/3580305.3599475,
@@ -1136,7 +1148,8 @@
 	abstract     = {Pretraining molecular representation models without labels is fundamental to various applications. Conventional methods mainly process 2D molecular graphs and focus solely on 2D tasks, making their pretrained models incapable of characterizing 3D geometry and thus defective for downstream 3D tasks. In this work, we tackle 3D molecular pretraining in a complete and novel sense. In particular, we first propose to adopt an equivariant energy-based model as the backbone for pretraining, which enjoys the merits of fulfilling the symmetry of 3D space. Then we develop a node-level pretraining loss for force prediction, where we further exploit the Riemann-Gaussian distribution to ensure the loss to be E(3)-invariant, enabling more robustness. Moreover, a graph-level noise scale prediction task is also leveraged to further promote the eventual performance. We evaluate our model pretrained from a large-scale 3D dataset GEOM-QM9 on two challenging 3D benchmarks: MD17 and QM9. Experimental results demonstrate the efficacy of our method against current state-of-the-art pretraining approaches, and verify the validity of our design for each proposed component. Code is available at https://github.com/jiaor17/3D-EMGP.},
 	bibtex_show  = {true},
 	abbr         = {AAAI},
-	slides       = {AAAI23-3DEMGP_pub.pdf}
+	slides       = {AAAI23-3DEMGP_pub.pdf},
+	code         = {https://github.com/jiaor17/3D-EMGP}
 }
 @inproceedings{10.1145/3583780.3614893,
 	title        = {Geometric Graph Learning for Protein Mutation Effect Prediction},
@@ -1158,7 +1171,8 @@
 	bibtex_show  = {true},
 	abbr         = {CIKM},
 	selected     = {true},
-	slides       = {CIKM23-HGIN-paper1727}
+	slides       = {CIKM23-HGIN-paper1727},
+	code         = {https://github.com/Kangfei/HGIN},
 }
 
 @article{9457127,
