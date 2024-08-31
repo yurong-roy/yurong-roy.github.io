@@ -42,7 +42,7 @@ Prior joining DAMO Academy, I served as a principal researcher at [Tencent AI La
 
 ## 📝 Recent Publications
 <div class="publications">
-{% bibliography -f {{ site.scholar.bibliography }} -q @*[selected=true and year>=2023]* %}
+{% bibliography -f {{ site.scholar.bibliography }} -q @*[selected=true && year>=2023]* %}
 </div>
 
 <!-- ## 💬 Talks -->
