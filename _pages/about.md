@@ -18,7 +18,7 @@ latest_posts: false  # includes a list of the newest posts
 # selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi! I am currently a Senior Staff Algorithm Engineer at [DAMO Academy of Alibaba Group](https://damo.alibaba.com/). I am generally interested in developing the novel and efficient graph learning algorithms to tackle real-world challenges, particularly in the realm of social networks and AI for Science.
+Hi! I am currently the Director of Language And Science Lab (LASA) of [DAMO Academy of Alibaba Group](https://damo.alibaba.com/). I am generally interested in developing the novel and efficient models with various complex data structures, includeing graphs and sequences to tackle real-world challenges, particularly in the realm of Language and Science.
 
 Prior joining DAMO Academy, I served as a principal researcher at [Tencent AI Lab](https://ai.tencent.com/) for seven years. I briefly served as a Postdoctoral Research Fellow at The Chinese University of Hong Kong. I received Ph.D degree at [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/) in 2016, under the supervision of Professor [Hong CHENG](https://www1.se.cuhk.edu.hk/~hcheng/). Before that I obtained my B.S. degree with honors from [Sun Yat-sen University](https://www.sysu.edu.cn/).
 
@@ -49,9 +49,9 @@ Prior joining DAMO Academy, I served as a principal researcher at [Tencent AI La
 <h2 id="talks" class="publications">💬 Talks</h2>
 
 <h2 id="honors-and-awards" class="publications">🎖Honors and Awards</h2>
-
+ - **2022**, Champion of 2nd Open Catalyst Challenge, NeurIPS
  - **2020**, 10% of High-scoring Reviewers, NeurIPS
- - **2017**, Research Fellowship Scheme, in 2017, CUHK
+ - **2017**, Research Fellowship Scheme, CUHK
  - **2012**, Outstanding Undergraduate Thesis Award, SYSU
  - **2012**, National Undergraduate Scholarship, MoE
  - **2011**, Google Excellence Scholarship, Google
