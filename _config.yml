@@ -8,7 +8,7 @@ middle_name:
 last_name: Rong (荣钰)
 email: yu.rong@hotmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Principal Researcher, Tencent AI Lab.
+  The head of Language And Science Lab (LASA) of DAMO Academy of Alibaba Group.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -89,7 +89,7 @@ work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
-dblp_url:  # your DBLP profile url
+dblp_url:  https://dblp.org/pid/24/10036-1.html # your DBLP profile url
 stackoverflow_id: # your stackoverflow id
 kaggle_id: # your kaggle id
 lastfm_id: # your lastfm id
