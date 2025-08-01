@@ -48,6 +48,7 @@ Prior joining DAMO Academy, I served as a principal researcher at [Tencent AI La
 <h2 id="talks" class="publications">💬 Talks</h2>
 
 <h2 id="honors-and-awards" class="publications">🎖Honors and Awards</h2>
+ - **2025**, Nomination for Spotlight Recipient of the 2025 WAIC Yunfan Award. WAIC
  - **2022**, Champion of 2nd Open Catalyst Challenge, NeurIPS
  - **2020**, 10% of High-scoring Reviewers, NeurIPS
  - **2017**, Research Fellowship Scheme, CUHK
